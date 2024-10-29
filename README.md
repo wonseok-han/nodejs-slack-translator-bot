@@ -89,4 +89,5 @@ Hello, world.
 
 * [https://api.slack.com/](https://api.slack.com/)
 * [https://www.deepl.com/en/your-account/subscription](https://www.deepl.com/en/your-account/subscription)
+* [https://platform.openai.com/docs/api-reference/introduction](https://platform.openai.com/docs/api-reference/introduction)
 * [https://velog.io/@devand/%EC%8A%AC%EB%9E%99-Web-API-%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4%EB%B3%B4%EC%9E%90-1](https://velog.io/@devand/%EC%8A%AC%EB%9E%99-Web-API-%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4%EB%B3%B4%EC%9E%90-1)
