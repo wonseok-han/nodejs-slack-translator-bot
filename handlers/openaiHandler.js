@@ -87,8 +87,13 @@ async function translateText(text, targetLang) {
 
     return response.data.choices[0].message.content.trim();
   } catch (error) {
-    console.error("Translation error:", error);
-    return `[Error!] ${text}`; // 오류 발생 시 원문을 그대로 반환
+    if (error && error.status === 429) {
+      console.error("Rate limit exceeded. Waiting before retrying...");
+      return `[Error!] ${error.error.message}`; // 429 관련 에러 발생 시 오류 반환
+    } else {
+      console.error("Translation error:", error);
+      return `[Error!] ${text}`; // 오류 발생 시 원문을 그대로 반환
+    }
   }
 }
 
